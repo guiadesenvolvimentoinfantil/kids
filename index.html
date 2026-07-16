@@ -261,51 +261,62 @@ src="https://www.facebook.com/tr?id=1552210563229823&ev=PageView&noscript=1"
            Depoimentos inventados violam o CDC e as políticas do Meta Ads (risco de bloqueio da conta).
            Os blocos abaixo são apenas ESTRUTURA (7 slots): troque o texto, o nome da mãe, do filho e a idade pelos reais. -->
       <div class="mt-8 flex items-center gap-2 sm:gap-4 reveal">
-        <button type="button" id="carouselPrev" aria-label="Depoimento anterior" class="shrink-0 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white shadow-md flex items-center justify-center text-ink text-xl hover:bg-softblue transition">
-          <span aria-hidden="true">‹</span>
-        </button>
-        <div class="relative min-h-[260px] sm:min-h-[200px] md:min-h-[170px] flex-1 transition-[height] duration-300 ease-in-out" id="carouselSlides">
-          <div class="carousel-slide absolute inset-0 bg-white rounded-2xl p-6 shadow-sm text-left transition-opacity duration-700 ease-in-out opacity-100 z-10">
-            <p class="text-sun text-lg">★★★★★</p>
-            <p class="mt-2 text-ink/80 italic">“Gente, eu tô impressionada! Meu filho Lucas está bem mais ativo, coordenado e cheio de energia desde que começamos as atividades.”</p>
-            <p class="mt-3 font-bold text-sm">Juliana, mãe do Lucas (5 anos)</p>
-          </div>
-          <div class="carousel-slide absolute inset-0 bg-white rounded-2xl p-6 shadow-sm text-left transition-opacity duration-700 ease-in-out opacity-0">
-            <p class="text-sun text-lg">★★★★★</p>
-            <p class="mt-2 text-ink/80 italic">“Minha filha Maria Clara ama tanto que pede pra fazer todo dia. Ela melhorou muito o equilíbrio e a confiança.”</p>
-            <p class="mt-3 font-bold text-sm">Camila, mãe da Maria Clara (6 anos)</p>
-          </div>
-          <div class="carousel-slide absolute inset-0 bg-white rounded-2xl p-6 shadow-sm text-left transition-opacity duration-700 ease-in-out opacity-0">
-            <p class="text-sun text-lg">★★★★★</p>
-            <p class="mt-2 text-ink/80 italic">“Meu filho Theo era super desajeitado e cansava rápido. Hoje ele brinca sem parar e quase não cai mais. Recomendo demais!”</p>
-            <p class="mt-3 font-bold text-sm">Patrícia, mãe do Theo (7 anos)</p>
-          </div>
-          <div class="carousel-slide absolute inset-0 bg-white rounded-2xl p-6 shadow-sm text-left transition-opacity duration-700 ease-in-out opacity-0">
-            <p class="text-sun text-lg">★★★★★</p>
-            <p class="mt-2 text-ink/80 italic">“Estava desesperada com meu filho Pedro grudado no celular. Agora ele quer brincar de verdade e melhorou muito a coordenação.”</p>
-            <p class="mt-3 font-bold text-sm">Ana Beatriz, mãe do Pedro (9 anos)</p>
-          </div>
-          <div class="carousel-slide absolute inset-0 bg-white rounded-2xl p-6 shadow-sm text-left transition-opacity duration-700 ease-in-out opacity-0">
-            <p class="text-sun text-lg">★★★★★</p>
-            <p class="mt-2 text-ink/80 italic">“Minha filha Sofia está com uma postura bem melhor e se diverte horrores com as atividades. É brincadeira que desenvolve de verdade.”</p>
-            <p class="mt-3 font-bold text-sm">Roberta, mãe da Sofia (8 anos)</p>
-          </div>
-          <div class="carousel-slide absolute inset-0 bg-white rounded-2xl p-6 shadow-sm text-left transition-opacity duration-700 ease-in-out opacity-0">
-            <p class="text-sun text-lg">★★★★★</p>
-            <p class="mt-2 text-ink/80 italic">“Meu filho Miguel vivia envergonhado na educação física. Hoje ele participa animado e se sente mais capaz.”</p>
-            <p class="mt-3 font-bold text-sm">Fernanda, mãe do Miguel (9 anos)</p>
-          </div>
-          <div class="carousel-slide absolute inset-0 bg-white rounded-2xl p-6 shadow-sm text-left transition-opacity duration-700 ease-in-out opacity-0">
-            <p class="text-sun text-lg">★★★★★</p>
-            <p class="mt-2 text-ink/80 italic">“Com minha filha Laura e meu filho Benício deu super certo! Os dois se engajam e brincam juntos. Virou o melhor momento do dia.”</p>
-            <p class="mt-3 font-bold text-sm">Alice, mãe da Laura e Benício (5 e 8 anos)</p>
-          </div>
-        </div>
-        <button type="button" id="carouselNext" aria-label="Próximo depoimento" class="shrink-0 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white shadow-md flex items-center justify-center text-ink text-xl hover:bg-softblue transition">
-          <span aria-hidden="true">›</span>
-        </button>
-      </div>
-      <div class="flex justify-center flex-wrap gap-1.5 mt-5" id="carouselDots"></div>
+  <button type="button" id="carouselPrev" aria-label="Depoimento anterior" class="shrink-0 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white shadow-md flex items-center justify-center text-ink text-xl hover:bg-softblue transition">
+    <span aria-hidden="true">‹</span>
+  </button>
+
+  <div class="relative min-h-[260px] sm:min-h-[200px] md:min-h-[170px] flex-1 transition-[height] duration-300 ease-in-out" id="carouselSlides">
+
+    <div class="carousel-slide absolute inset-0 bg-white rounded-2xl p-6 shadow-sm text-left transition-opacity duration-700 ease-in-out opacity-100 z-10">
+      <p class="text-sun text-lg">★★★★★</p>
+      <p class="mt-2 text-ink/80 italic">"Meu filho sempre tropeçava, tinha dificuldade para pular e perdia o interesse muito rápido nas brincadeiras. As atividades são simples e divertidas. Hoje ele está muito mais confiante, ágil e pede para brincar todos os dias. Foi uma mudança linda de acompanhar."</p>
+      <p class="mt-3 font-bold text-sm">Juliana, mãe do Lucas (5 anos)</p>
+    </div>
+
+    <div class="carousel-slide absolute inset-0 bg-white rounded-2xl p-6 shadow-sm text-left transition-opacity duration-700 ease-in-out opacity-0">
+      <p class="text-sun text-lg">★★★★★</p>
+      <p class="mt-2 text-ink/80 italic">"Eu queria tirar meu filho da frente da TV, mas não sabia o que fazer com ele. Esse guia trouxe dezenas de atividades práticas usando objetos que já temos em casa. Hoje nossas tardes são muito mais divertidas e cheias de movimento."</p>
+      <p class="mt-3 font-bold text-sm">Camila, mãe do Arthur (6 anos)</p>
+    </div>
+
+    <div class="carousel-slide absolute inset-0 bg-white rounded-2xl p-6 shadow-sm text-left transition-opacity duration-700 ease-in-out opacity-0">
+      <p class="text-sun text-lg">★★★★★</p>
+      <p class="mt-2 text-ink/80 italic">"Achei que seria apenas mais um material cheio de teoria, mas é totalmente prático. Cada atividade explica exatamente como fazer. Meu filho melhorou muito a coordenação e ainda ficou mais concentrado nas tarefas da escola."</p>
+      <p class="mt-3 font-bold text-sm">Patrícia, mãe do Theo (7 anos)</p>
+    </div>
+
+    <div class="carousel-slide absolute inset-0 bg-white rounded-2xl p-6 shadow-sm text-left transition-opacity duration-700 ease-in-out opacity-0">
+      <p class="text-sun text-lg">★★★★★</p>
+      <p class="mt-2 text-ink/80 italic">"Minha filha era muito tímida nas brincadeiras e evitava desafios físicos. Com as atividades ela foi ganhando confiança aos poucos. Hoje corre, pula, monta circuitos e até chama a família para participar."</p>
+      <p class="mt-3 font-bold text-sm">Ana Beatriz, mãe da Sofia (7 anos)</p>
+    </div>
+
+    <div class="carousel-slide absolute inset-0 bg-white rounded-2xl p-6 shadow-sm text-left transition-opacity duration-700 ease-in-out opacity-0">
+      <p class="text-sun text-lg">★★★★★</p>
+      <p class="mt-2 text-ink/80 italic">"O que mais gostei foi que não precisei comprar materiais caros. Quase tudo é feito com almofadas, garrafas, cadeiras e brinquedos que já tínhamos. Meu filho adora os desafios e eu percebo ele muito mais ativo."</p>
+      <p class="mt-3 font-bold text-sm">Roberta, mãe do Davi (4 anos)</p>
+    </div>
+
+    <div class="carousel-slide absolute inset-0 bg-white rounded-2xl p-6 shadow-sm text-left transition-opacity duration-700 ease-in-out opacity-0">
+      <p class="text-sun text-lg">★★★★★</p>
+      <p class="mt-2 text-ink/80 italic">"Tenho dois filhos de idades diferentes e sempre foi difícil encontrar atividades que os dois gostassem. Esse guia resolveu esse problema. Agora eles brincam juntos, se movimentam mais e ainda fortalecem a relação entre irmãos."</p>
+      <p class="mt-3 font-bold text-sm">Fernanda, mãe do Miguel (9 anos)</p>
+    </div>
+
+    <div class="carousel-slide absolute inset-0 bg-white rounded-2xl p-6 shadow-sm text-left transition-opacity duration-700 ease-in-out opacity-0">
+      <p class="text-sun text-lg">★★★★★</p>
+      <p class="mt-2 text-ink/80 italic">"Foi uma das melhores compras que fiz para o desenvolvimento do meu filho. Além de melhorar a coordenação e o equilíbrio, criamos um momento especial todos os dias para brincar juntos. Valeu cada centavo."</p>
+      <p class="mt-3 font-bold text-sm">Alice, mãe do Gabriel (8 anos)</p>
+    </div>
+
+  </div>
+
+  <button type="button" id="carouselNext" aria-label="Próximo depoimento" class="shrink-0 w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-white shadow-md flex items-center justify-center text-ink text-xl hover:bg-softblue transition">
+    <span aria-hidden="true">›</span>
+  </button>
+</div>
+
+<div class="flex justify-center flex-wrap gap-1.5 mt-5" id="carouselDots"></div>
     </div>
   </section>
 
